@@ -35,6 +35,14 @@ section{
     margin-right: 10px;
 }
 
+/*Bagian Label*/
+.label{
+    background-color: rgb(15, 133, 11);
+}
+.label p{
+    color:#fff;
+}
+
 /*Bagian Menu*/
 .menu .row .col li{
     display: inline-block;
@@ -45,36 +53,6 @@ section{
 }
 .menu .row .col :hover{
     color: #fff;
-}
-
-/**Bagian Banner*/
-.banner{
-    height: 75vh;
-    background-image: url('../img/banner.jfif');
-    background-size: cover;
-    position: relative;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.banner ::after{
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:rgba(0, 78, 39, 0.6);
-    z-index: -1;
-}
-.banner h2{
-    font-size: 50px;
-    color: #fff;
-    z-index: 1;
-    padding: 20px 25px;
-    border: 5px solid rgb(3, 85, 0);
 }
 
 /*Bagian Footer*/
