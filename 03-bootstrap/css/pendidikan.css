@@ -55,6 +55,97 @@ section{
     color: #fff;
 }
 
+/*Bagian Riwayat*/
+.riwayat{
+    height: 100vh;
+    background-image: url('../img/banner.jfif');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 50px 70px;
+    z-index: -1;
+}
+.riwayat ::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 78, 39, 0.1);
+    z-index: -1;
+}
+.riwayat h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.05em rgba(76, 255, 60, 0.842);
+}
+.riwayat h3 {
+    padding: 15px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.05em rgba(76, 255, 60, 0.842);
+}
+.riwayat p{
+    border: 4px solid #fff;
+    padding: 15px 0;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(18, 151, 5, 0.8);
+    font-family: sans-serif;
+    font-size: 17px;
+    word-spacing: 5px;
+    color: #fff;
+}
+
+/*Bagian Pend-skrg*/
+.pend-skrg{
+    background-color: #fff;
+}
+.pend-skrg h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.05em rgb(11, 138, 0);
+    padding-bottom: 25px;
+}
+.pend-skrg img{
+    float: right;
+    padding-right: 70px;
+}
+.pend-skrg p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    word-spacing: 5px;
+    line-height: 25px;
+}
+
+/*Bagian About*/
+.about{
+    background-color: #f3f3f3;
+    text-align: center;
+    line-height: 25px;
+}
+.about h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bolder;
+    -webkit-text-stroke: 0.05em rgb(11, 138, 0);
+    padding-bottom: 25px;
+}
+
 /*Bagian Footer*/
 .copyright{
     color: #fff

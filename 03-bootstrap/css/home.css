@@ -49,7 +49,7 @@ section{
 
 /**Bagian Banner*/
 .banner{
-    height: 75vh;
+    height: 80vh;
     background-image: url('../img/banner.jfif');
     background-size: cover;
     position: relative;
